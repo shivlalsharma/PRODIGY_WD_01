@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FitLife - Personalized fitness training tailored to your unique goals. Transform your body with expert guidance in personal training, group classes, and nutrition plans.">
+  <meta name="keywords" content="fitness, personal training, group classes, nutrition plans, health, fitness coach, gym, Shivlal Sharma">
+  <meta name="author" content="Shivlal Sharma">
+  <meta property="og:title" content="FitLife - Transform Your Body">
+  <meta property="og:description" content="Personalized fitness training tailored to your unique goals. Join FitLife today!">
+  <meta property="og:image" content="./asset/logo.png">
+  <meta property="og:url" content="https://fitlife03.netlify.app">
+  <meta property="og:type" content="website">
+  <title>FitLife</title>
+  <link rel="shortcut icon" href="./asset/logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HealthAndBeautyBusiness",
+      "name": "FitLife",
+      "description": "Personalized fitness training tailored to your unique goals.",
+      "image": "https://fitlife03.netlify.app/asset/logo.png",
+      "url": "https://fitlife03.netlify.app",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress":"Shivshakti Vishwakarma Chawl, Maharashtra Nagar, Mankhurd",
+        "addressLocality": "Mumbai",
+        "addressRegion": "Maharashtra",
+        "postalCode": "400088",
+        "addressCountry": "India"
+      },
+      "sameAs": [
+        "https://github.com/shivlalsharma",
+        "https://www.linkedin.com/in/shivlal-sharma-56ba5a284/"
+      ]
+    }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo" aria-label="FitLife Logo">
+      <img src="./asset/logo.png" alt="FitLife Logo">
+    </div>
+    <nav aria-label="Main Navigation">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" aria-label="Toggle Navigation">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero section">
+    <div class="hero-content">
+      <h1>Transform Your Body</h1>
+      <p>Personalized fitness training to achieve your goals.</p>
+      <a href="#contact" class="join-now-btn" aria-label="Join FitLife Now" >Join Now</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-me section">
+    <h2>Who Am I?</h2>
+    <div class="about-container">
+      <div class="intro">Hey there! I'm <span class="trainer">Shivlal Sharma</span>, a passionate fitness coach dedicated to helping individuals unlock their full potential. 
+        With over 5 years of hands-on experience, I specialize in crafting personalized fitness strategies tailored to 
+        your unique goals - be it shedding extra pounds, building lean muscle, or simply embracing a healthier lifestyle. 
+        Together, we’ll work towards creating a stronger, more confident version of you!
+      </div>
+      <img src="./asset/fitness.png" alt="Fitness Coach Shivlal Sharma">
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <h2>Services</h2>
+    <div class="services-container">
+      <div class="service-card">
+        <img src="./asset/personal_training.png" alt="Personal Training Service">
+        <h3>Personal Training</h3>
+        <p>One-on-one sessions tailored to your goals and fitness level.</p>
+        <button class="btn" aria-label="Learn More About Personal Training">Learn More</button>
+      </div>
+      <div class="service-card">
+        <img src="./asset/group_classes.png" alt="Group Classes Service">
+        <h3>Group Classes</h3>
+        <p>Motivational group workouts to build strength and endurance.</p>
+        <button class="btn" aria-label="Learn More About Group Classes">Learn More</button>
+      </div>
+      <div class="service-card">
+        <img src="./asset/nutrition_plans.png" alt="Nutrition Plans Service">
+        <h3>Nutrition Plans</h3>
+        <p>Customized meal plans to complement your fitness regime.</p>
+        <button class="btn" aria-label="Learn More About Nutrition Plans">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form class="contact-form" id="contactForm">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Enter your name" aria-label="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Enter your email" aria-label="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <textarea id="message" placeholder="Enter your message" aria-label="Enter your message" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <p id="thankYouMessage">Thank you for your message!</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p> <span id="current-year"></span> &copy; <span class="brand-name">FitLife</span>. All rights reserved.</p>
+    <p class="social-links">
+      <a href="mailto:shivlalsharma063@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email Shivlal Sharma"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+      <a href="https://github.com/shivlalsharma" target="_blank" rel="noopener noreferrer" aria-label="Visit Shivlal Sharma's GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shivlal-sharma-56ba5a284/" target="_blank" rel="noopener noreferrer" aria-label="Visit Shivlal Sharma's LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
