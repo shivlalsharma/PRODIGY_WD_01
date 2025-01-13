@@ -1,11 +1,11 @@
-# Interactive Navigation Menu
+# Responsive Landing Page
 
 This project features a responsive and interactive navigation menu that dynamically changes style when scrolled or when hovering over menu items. The menu is designed to remain fixed at the top of the page, ensuring accessibility and usability across all pages.
 
 ## Deployment
 
 The project is live and accessible at the following link:  
-[Interactive Navigation Menu Live Demo](https://fitlife03.netlify.app/)
+[Responsive Landing Page Live Demo](https://fitlife03.netlify.app/)
 
 ## Features
 
@@ -45,9 +45,6 @@ To run this project locally:
    open index.html
    ```
    Alternatively, you can right-click the file and select "Open With" > "Browser."
-
-4. **Customize (Optional)**  
-   Modify the HTML, CSS, or JavaScript files to customize the menu style or behavior according to your preferences.
 
 ## License
 
